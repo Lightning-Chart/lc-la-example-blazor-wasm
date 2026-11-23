@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace BlazorWasmExample.Data;
+namespace BlazorWasmVehicleTelemetry.Data;
 
 public sealed record TelemetrySample(
     double TimeSeconds,
@@ -42,7 +42,7 @@ public sealed class TelemetryData
         CancellationToken cancellationToken = default)
     {
         const string resourceName =
-            "BlazorWasmExample.Data.tesla_trackmode_laguna_seca_synced60s.csv";
+            "BlazorWasmVehicleTelemetry.Data.tesla_trackmode_laguna_seca_synced60s.csv";
 
         await using var stream = typeof(TelemetryData).Assembly
             .GetManifestResourceStream(resourceName)

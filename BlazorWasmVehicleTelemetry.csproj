@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LCLA" Version="0.0.10" />
+    <PackageReference Include="LCLA" Version="0.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,7 +25,7 @@
 <ItemGroup>
   <EmbeddedResource
       Include="Data\tesla_trackmode_laguna_seca_synced60s.csv"
-      LogicalName="BlazorWasmExample.Data.tesla_trackmode_laguna_seca_synced60s.csv" />
+      LogicalName="BlazorWasmVehicleTelemetry.Data.tesla_trackmode_laguna_seca_synced60s.csv" />
 </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 using System.Reflection;
-using BlazorWasmExample;
+using BlazorWasmVehicleTelemetry;
 using LightningChart.LA.Api;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
